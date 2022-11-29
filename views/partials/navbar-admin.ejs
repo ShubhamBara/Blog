@@ -1,0 +1,35 @@
+<div class="container-fluid main_menu">
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/admin/post">
+                    Blooger
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin/post">Articles</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="/admin/post/add_post">Add Post</a>
+                        </li> -->
+                        <form class="form-inline my-2 my-lg-0 ml-3" action="/logout?_method=DELETE" method="post">
+                            <button class="btn btn-green my-2 my-sm-0" type="submit">Log Out</button>
+                        </form>
+                        
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="/admin/login">
+                                <img src="/images/profile-user.png" height="30">
+                        </li> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
